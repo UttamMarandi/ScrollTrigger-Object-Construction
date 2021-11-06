@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+.top_section,
+.bottom_section,
+.content_section {
+  height: 1500px;
+  background-color: pink;
+}
+.top_div {
+  background-color: #181619;
+  border-radius: 6.25rem 6.25rem 0 0;
+  padding-bottom: 180px;
+}
+.top_div p {
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 0px;
+}
+.panda_div {
+  background-color: white;
+  height: 1200px;
+  border-radius: 6.25rem 6.25rem 0 0;
+  margin-top: -90px;
+  position: relative;
+  z-index: 100;
+  padding-top: 100px;
+}
+.anim_container {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.anim_jacket {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+.anim_eyes {
+  position: absolute;
+  left: -20px;
+}
+.anim_eyeband {
+  position: absolute;
+  left: 80px;
+}
+.anim_crown {
+  position: absolute;
+  left: 30px;
+}
+
+@media (max-width: 540px) {
+  .anim_container {
+    width: 100vw;
+  }
+  .top_div {
+    padding: 20px;
+  }
+}
