@@ -35,6 +35,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .anim_jacket {
   position: absolute;
   top: 20px;
@@ -53,11 +54,49 @@ body {
   left: 30px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 660px) {
   .anim_container {
     width: 100vw;
+    text-align: center;
   }
   .top_div {
     padding: 20px;
+  }
+  .anim_background {
+    width: 325px;
+  }
+
+  .anim_container img {
+    display: block;
+    margin: 0 auto;
+  }
+  .anim_background {
+    width: 304.73px;
+  }
+  .anim_jacket {
+    width: 274.26px;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+  }
+  .anim_eyes {
+    width: 326.06px;
+    position: absolute;
+    left: 27px;
+    top: 0px;
+  }
+  .anim_eyeband {
+    width: 224.99px;
+    position: absolute;
+    left: 75px;
+  }
+  .anim_crown {
+    width: 274.26px;
+    position: absolute;
+    left: 52px;
+    top: 0px;
+  }
+  .logo_anim_div {
+    width: 90%;
   }
 }
